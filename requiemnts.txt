@@ -1,0 +1,45 @@
+## Requirements & Development Environment
+
+The following tools and technologies are required to run this project:
+
+### 1. Google Colab
+- Google Colab is used as the development environment.
+- It provides a cloud-based Jupyter Notebook interface.
+- No local Python installation is required.
+- Allows execution of Python code directly in a web browser.
+
+Website: https://colab.research.google.com/
+
+### 2. Python
+- Python is the primary programming language used in this project.
+- It is used for data loading, cleaning, preprocessing, analysis, and visualization.
+
+Website: https://www.python.org/
+
+### 3. Required Python Libraries
+
+Install the following libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+| Library | Requirement |
+|---|---|
+| Pandas | Data loading and manipulation |
+| NumPy | Numerical calculations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| re | Built-in Python module for text processing |
+
+### 4. Dataset Requirement
+- CSV-format dataset (`messy_sales_data.csv`).
+- Upload the dataset to Google Colab before running the notebook.
+
+### 5. Basic System Requirements
+- A computer or laptop.
+- Internet connection.
+- Google account to access Google Colab.
+- Modern web browser (Google Chrome recommended).
+
+**Note:** Google Colab provides the Python execution environment, so users do not need to install Python or Jupyter Notebook locally.
