@@ -1,0 +1,99 @@
+# Data Cleaning, Preprocessing & Exploratory Data Analysis (EDA)
+
+## Project Overview
+
+This project focuses on cleaning, preprocessing, and exploring a messy sales dataset using Python. The objective is to improve data quality, handle inconsistencies, identify patterns, and visualize useful insights before applying Machine Learning algorithms.
+
+## Technologies & Libraries
+
+- Python
+- Pandas – Data manipulation and analysis
+- NumPy – Numerical operations
+- Matplotlib – Data visualization
+- Seaborn – Statistical data visualization
+- Regular Expressions (re) – Data cleaning and text processing
+
+## Dataset
+
+**Dataset Name:** `messy_sales_data.csv`
+
+The dataset contains sales-related information, including:
+
+- Order ID
+- Order Date
+- Quantity
+- Unit Price
+- Age
+- Gender
+- Department
+- Status
+- Rating
+
+## Project Workflow
+
+### 1. Data Loading
+- Imported required Python libraries.
+- Loaded the CSV dataset into a Pandas DataFrame.
+- Examined the initial dataset shape.
+
+### 2. Data Cleaning & Preprocessing
+- Removed duplicate records.
+- Filtered invalid quantity values.
+- Cleaned unit prices by removing currency symbols and commas.
+- Converted age values into numerical format.
+- Converted order dates into datetime format.
+- Handled missing numerical values using median imputation.
+- Handled missing categorical values using appropriate default labels.
+- Standardized department names and corrected spelling variations.
+
+### 3. Exploratory Data Analysis (EDA)
+
+Created nine visualizations to explore the cleaned dataset:
+
+1. Histogram of Order Quantity
+2. Average Quantity per Department
+3. Department Proportion Pie Chart
+4. Order ID vs Quantity Scatter Plot
+5. Quantity Trends Over Time
+6. Quantity Box Plot for Outlier Detection
+7. Numerical Correlation Heatmap
+8. Record Count per Department
+9. Quantity Distribution by Department (Violin Plot)
+
+## Installation & Setup
+
+Install the required libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open the project in Google Colab or Jupyter Notebook.
+3. Upload `messy_sales_data.csv`.
+4. Update the dataset file path if necessary.
+5. Execute the Python code.
+6. Review the cleaned dataset and generated visualizations.
+
+## Project Objectives
+
+- Improve dataset quality and consistency.
+- Identify and handle missing and duplicate records.
+- Correct inconsistent data formats and invalid values.
+- Explore relationships between sales variables.
+- Discover patterns and trends through visualization.
+- Prepare reliable data for future Machine Learning applications.
+
+## Conclusion
+
+This project demonstrates the importance of Data Cleaning, Preprocessing, and Exploratory Data Analysis in the Machine Learning workflow. The cleaned dataset provides a more consistent foundation for further statistical analysis and Machine Learning model development.
+
+---
+
+**Project Category:** Data Science / Machine Learning
+
+**Language:** Python
+
+**Status:** Data Cleaning & EDA Completed
